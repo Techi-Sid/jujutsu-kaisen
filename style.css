@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://images6.alphacoders.com/130/1301165.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav {
+    margin: 20px 0;
+}
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+nav ul li {
+    display: inline; /* Display items in a line */
+    margin: 0 15px; /* Space between items */
+}
+nav a {
+    color: #ff6f61; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s; /* Smooth color transition */
+}
+nav a:hover {
+    color: #ff4c3b; /* Change color on hover */
+}
+main {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+}
